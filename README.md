@@ -4,7 +4,7 @@ authorization using JWT tokens. The project uses a MySQL database to store user 
 
 Here is a helpful visualization of how the website looks like:
 Homepage:
-![ ](./images/homepage.JPG)
+![ ](images/homepage.JPG)
 
 Sign up Page:
 ![ ](./images/Signuppage.JPG)
@@ -13,7 +13,7 @@ Login Page:
 ![ ](./images/login.JPG)
 
 User's MVP Page:
-![ ](./images/MVPpage.JPG)
+![ ](/images/MVPpage.JPG)
 
 Leaderboard Page:
 ![ ](./images/Leaderboardpage.JPG)
