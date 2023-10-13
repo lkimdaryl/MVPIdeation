@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+    <link rel='stylesheet' type='text/css' href='public/nav_bar.css'>
+    <link rel="stylesheet" type="text/css" href="./public/profile.css">
+<!--    username-->
+    <script src="./public/profile.js"></script>
+    <script src="./public/logout.js"></script>
+</head>
+<body>
+<body>
+	<nav>
+        <span><a href="/mvp">MVP</a></span>
+        <span><a href="/leaderboard">Leaderboard</a></span>
+        <span><a href="/profile">Profile Settings</a></span>
+        <span><a href="/" id="logout-link">Logout</a></span>
+	</nav>
+<div class="form_container">
+    <h1>Account Settings</h1>
+
+    <form id="change-form">
+
+        <div class="imgcontainer">
+            <img src="./public/images/avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname" id="u-name">Username: </label>
+<!--            <span>grab username from database</span>-->
+            <input type="text" id="uname" name="username" placeholder="Enter another username">
+            <button type="button" id="change_username_button">change username</button>
+<!--            make sure to validate if username doesn't exist yet in the database-->
+        </div>
+
+        <div class="container">
+            <label for="e-mail" id="e_mail">Email:</label>
+<!--            <span>grab email from database</span>-->
+            <input type="text" id="e-mail" name="email" placeholder="Enter another email">
+            <button type="button" id="change_email_button">change email</button><br><br>
+<!--            make sure to validate if email doesn't exist yet in the database-->
+        </div>
+
+        <div class="container">
+            <label for="pswd" >Password:</label>
+			<input type="password" id="pswd" name="password">
+            <button type="button" id="change_pwd_button">change password</button>
+<!--            make sure to validate if password meet the following conditions-->
+<!--            8 characters long-->
+<!--            contains at least 1 special character, 1 capital letter, 1 small letter, and 1 number-->
+        </div>
+    </form>
+</div>
+
+</body>

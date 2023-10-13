@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Login</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel='stylesheet' type='text/css' href='public/login_and_signup.css'>
+        <script src="public/login.js" defer></script>
+    </head>
+    <body>
+        <div class="form_container">
+            <form action="/profile" method="get" id="login-form">
+                <div class="imgcontainer">
+                <img src="public/images/avatar.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Test: Sample" name="username" id="uname" required>
+
+                <label for="pswd"><b>Password</b></label>
+                <input type="password" placeholder="Test: Password1!" name="password" id="pswd" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>IdeaHub - MVP Idea Development Platform</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel='stylesheet' type='text/css' href='public/login_and_signup.css'>
+        <script src="public/signup.js" defer></script>
+    </head>
+    <body>
+
+        <div class="form_container">
+        <form action="/create_user" method="post" id="login-form">
+            <div class="imgcontainer">
+            <img src="public/images/avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="first_name"><b>First name</b></label>
+                <input type="text" placeholder="Enter First Name" name="firstname" id="first_name" required>
+
+                <label for="last_name"><b>Last name</b></label>
+                <input type="text" placeholder="Enter Last Name" name="lastname" id="last_name" required>
+
+                <label for="e-mail"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="e-mail" required>
+
+                <label for="student_id"><b>PID</b></label>
+                <input type="text" placeholder="Enter Student PID" name="PID" id="student_id" required >
+
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" id="uname" required>
+
+                <label for="pswd"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" id="pswd" required>
+
+                <label for="pswd2"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Password" name="confirm_password" id="pswd2" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        </div>
+
+    </body>
+</html>

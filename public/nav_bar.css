@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav{
+    dispay: flex;
+    flex-wrap: wrap;
+    background-color: #04AA6D;
+    padding: 20px;
+}
+
+nav span a {
+    color: #fff; /* Set the font color of the links */
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav span {
+    padding: 20px;
+}
+
+nav span:hover {
+    background-color: #268132; /* Set the background color of the links on hover */
+}

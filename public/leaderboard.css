@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+p{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
