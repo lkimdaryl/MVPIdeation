@@ -3,22 +3,23 @@ users to sign up, log in, view profiles, view leaderboards, and update their MVP
 authorization using JWT tokens. The project uses a MySQL database to store user information.
 
 Here is a helpful visualization of how the website looks like:
-Homepage:   
+
+#### Homepage:   
 ![ ](./public/images/homepage.JPG)
 
-Sign up Page:   
+#### Sign up Page:   
 ![ ](./public/images/Signuppage.JPG)
 
-Login Page:     
+#### Login Page:     
 ![ ](./public/images/login.JPG)
 
-User's MVP Page:        
+#### User's MVP Page:        
 ![ ](./public/images/MVPpage.JPG)
 
-Leaderboard Page:       
+#### Leaderboard Page:       
 ![ ](./public/images/Leaderboardpage.JPG)
 
-Profile Settings Page:      
+#### Profile Settings Page:      
 ![ ](./public/images/Profilepage.JPG)
 
 ### Prerequisites:   
