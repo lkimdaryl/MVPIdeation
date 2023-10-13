@@ -12,11 +12,13 @@ from dotenv import load_dotenv                    # Used to read the credentials
 from starlette.responses import RedirectResponse
 import hashlib
 import jwt
-from The_Final_Boss.init_db import db             #Import helper module of database functions!
+from init_db import db             #Import helper module of database functions!
 from fastapi import Cookie, HTTPException
 import pprint
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 # Configuration
+
+load_dotenv("credentials.env")
 
 db_host = os.environ['MYSQL_HOST']
 db_user = os.environ['MYSQL_USER']

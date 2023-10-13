@@ -5,7 +5,7 @@ from dotenv import load_dotenv                    # Used to read the credentials
 
 
 ''' Environment Variables '''
-# load_dotenv("credentials.env")
+load_dotenv("credentials.env")
 
 # Read Database connection variables
 db_host = os.environ['MYSQL_HOST']
