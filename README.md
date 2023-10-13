@@ -4,22 +4,22 @@ authorization using JWT tokens. The project uses a MySQL database to store user 
 
 Here is a helpful visualization of how the website looks like:
 Homepage:   
-![ ](public/images/homepage.JPG)
+![ ](./public/images/homepage.JPG)
 
-Sign up Page:
-![ ](public/images/Signuppage.JPG)
+Sign up Page:   
+![ ](./public/images/Signuppage.JPG)
 
-Login Page:
-![ ](public/images/login.JPG)
+Login Page:     
+![ ](./public/images/login.JPG)
 
-User's MVP Page:
-![ ](public/images/MVPpage.JPG)
+User's MVP Page:        
+![ ](./public/images/MVPpage.JPG)
 
-Leaderboard Page:
-![ ](public/images/Leaderboardpage.JPG)
+Leaderboard Page:       
+![ ](./public/images/Leaderboardpage.JPG)
 
-Profile Settings Page:
-![ ](public/images/Profilepage.JPG)
+Profile Settings Page:      
+![ ](./public/images/Profilepage.JPG)
 
 Prerequisites:   
 Python 3.x installed    
