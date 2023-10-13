@@ -1,12 +1,30 @@
-This repository contains the source code for a FastAPI web application, which serves a simple social network. It allows 
+Welcome to the MVP Ideation repository. This repository contains the source code for a FastAPI web application, which serves a simple social network for users to view different mvp ideas. It allows 
 users to sign up, log in, view profiles, view leaderboards, and update their MVPs. It also supports authentication and 
 authorization using JWT tokens. The project uses a MySQL database to store user information.
+
+Here is a helpful visualization of how the website looks like:
+Homepage:
+![ ](./images/homepage.JPG)
+
+Sign up Page:
+![ ](./images/Signuppage.JPG)
+
+Login Page:
+![ ](./images/login.JPG)
+
+User's MVP Page:
+![ ](./images/MVPpage.JPG)
+
+Leaderboard Page:
+![ ](./images/Leaderboardpage.JPG)
+
+Profile Settings Page:
+![ ](./images/Profilepage.JPG)
 
 Prerequisites:   
 Python 3.x installed    
 pip package manager installed   
 MySQL server installed  
-
 
 Set the required environment variables in a .env file.     
 MYSQL_HOST=<your_mysql_host>         
