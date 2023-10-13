@@ -21,31 +21,83 @@ Leaderboard Page:
 Profile Settings Page:      
 ![ ](./public/images/Profilepage.JPG)
 
-Prerequisites:   
+### Prerequisites:   
 Python 3.x installed    
 pip package manager installed   
 MySQL server installed  
 
-Set the required environment variables in a .env file.     
-MYSQL_HOST=<your_mysql_host>         
-MYSQL_USER=<your_mysql_username>     
-MYSQL_PASSWORD=<your_mysql_password>     
-MYSQL_DATABASE=<your_mysql_database_name>        
+## Technologies Used
 
-Create the necessary database tables by running the following command.  
-python init_db.py   
+FastAPI: A modern, fast (high-performance) web framework for building APIs 
+with Python.
 
-Start the application by running the following command.
-uvicorn main:app --reload
-Navigate to http://localhost:6520 to access the application.
+MySQL: A popular open-source relational database management system.
 
-Usage   
+HTML and CSS: Used for creating the user interface of the web application.
+
+JavaScript: Used for handling dynamic interactions on the client-side.
+
+## Installation
+
+1. Clone the repository:
+
+   In your IDE's terminal run the following command:
+
+    ``
+    git clone <repository-url>
+    ``
+
+
+2. Make sure to have the following packages:
+   - fastapi
+   - uvicorn
+   - mysql.connector
+   - dotenv
+   
+   If you don't, run the following in the command line:
+
+   ``
+   pip install fastapi uvicorn mysql-connector-python python-dotenv
+   ``
+
+
+3. Set up the MySQL database:
+
+   Make sure you have MySQL installed and running on your system.
+
+   - In your IDE, create a new file and name it credentials.env
+   - In it, have the following:
+
+        MYSQL_HOST = 127.0.0.1         
+        MYSQL_USER = <your_mysql_username>     
+        MYSQL_PASSWORD = <your_mysql_password>  
+        MYSQL_DATABASE = leaderboard 
+    - Create the necessary database tables by  running the following command.  
+    `` py init_db.py`` 
+    - This will create the necessary tables for you.
+
+4. Run the application:
+
+   If running from terminal, run the following command:
+
+   ``
+   py server.py
+   ``
+   
+
+5. Access the application in your browser:
+
+   In your web browser, type in: 
+
+   `localhost:6520` to access homepage   
+
+### Usage   
 The following endpoints are available in the application:
 
 / - Home page   
 /login - Log in page    
 /signup - Sign up page  
-/profile/{username} - User profile page 
+/profile - User profile page 
 /mvp - MVP update page  
 /leaderboard - Leaderboard page 
 
